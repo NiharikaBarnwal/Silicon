@@ -1,4 +1,4 @@
-//Evaluate postfix expression.
+//Evaluate infix expression by converting to postfix
 //Niharika Barnwal, 30
 #include<stdio.h>
 #include<stdbool.h>
