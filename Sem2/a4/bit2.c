@@ -76,7 +76,7 @@ int pop()
 void display()
 {
 	int i;
-	if (IsEmpty)
+	if (IsEmpty())
 		printf("The stack is empty.\n");
 	else
 	{
