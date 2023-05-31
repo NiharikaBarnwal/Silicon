@@ -1,4 +1,4 @@
-//Circular queue with switch case 
+//Circular queue (Menu driven)
 //Niharika Barnwal, 30
 #include<stdio.h>
 #include<stdbool.h>
@@ -33,6 +33,9 @@ int main()
                                 break;
                         case 4:
                                 break;
+			default:
+				printf("Invalid option");
+				break;
                 }
         }while (opt!=4);
 }
