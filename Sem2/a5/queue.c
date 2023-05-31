@@ -34,7 +34,7 @@ int main()
                         case 4:
                                 break;
 			default:
-				printf("Invalid option");
+				printf("Invalid option\n");
 				break;
                 }
         }while (opt!=4);
