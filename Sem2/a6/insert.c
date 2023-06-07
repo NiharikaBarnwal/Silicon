@@ -159,7 +159,7 @@ void insert_after(NODE *node)
 		printf("Not a valid node\n");
 		return;
 	}
-	new=(NODE *)malloc(sizeof(node));
+	new=(NODE *)malloc(sizeof(NODE));
 	if(new==NULL)
 	{
 		printf("Not enough memory\n");
