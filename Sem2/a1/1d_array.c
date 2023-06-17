@@ -1,4 +1,4 @@
-/*Write a user defined function to pass an array and input elements into it,and then display the elements after calling in main().
+/*Pass an array and input elements into it,and then display the elements.
 Name: Niharika Barnwal
 Roll no.: 30*/
 #include<stdio.h>
