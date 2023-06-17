@@ -46,7 +46,11 @@ int main()
                                 display(s);
                                 break;
                         case 4:
+				printf("Thank you!");
                                 break;
+			default:
+				printf("Invalid option.");
+				break;
                 }
         }while (opt!=4);
 
