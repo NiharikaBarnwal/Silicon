@@ -1,4 +1,4 @@
-/*Write a program to find the transpose of a sparse matrix using triplet form.
+/*Find the transpose of a sparse matrix using triplet form.
   Niharika Barnwal, 30*/
 #include<stdio.h>
 #define size 20
