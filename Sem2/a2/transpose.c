@@ -1,4 +1,4 @@
-/*Write a program by using functions to input a matrix, transpose it and dispaly the transposed matrix.
+/*Input a matrix, transpose it and display the transposed matrix.
 Name: Niharika Barnwal
 Roll no. 30*/
 #include<stdio.h>
