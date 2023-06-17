@@ -1,4 +1,4 @@
-/*Write a user defined functin to search an element in the array by using linear search algorithm. Call it in main() to dispaly the position of the element if it is found otherwise display suitable error message if it is not found.
+/*Search an element in the array by using linear search algorithm.
 Nmae: Niharika Barnwal
 Roll no.: 30*/
 #include<stdio.h>
