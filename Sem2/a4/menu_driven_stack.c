@@ -33,6 +33,7 @@ int main()
 				display();
 				break;
 			case 4:
+				printf("Thank you!");
 				break;
 			default:
 				printf("Invalid option.\n");
