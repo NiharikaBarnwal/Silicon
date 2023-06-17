@@ -1,4 +1,4 @@
-/*Write a user defined function to delete an element from the array that is passed to it as function argument.
+/*Delete an element from the array.
 Name: Niahrika Barnwal
 Roll no.:30*/
 #include<stdio.h>
