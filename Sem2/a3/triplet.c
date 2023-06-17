@@ -1,4 +1,4 @@
-/*Write by using functions to input the above triplet matrix you have obtained previous question and convert that to a general matrix form and display. Verify whether it is the same matrix you had inputted in previous question.
+/*Convert a triplet matrix into a general matrix.
 Name:Niahrika Barnwal
 Roll no.: 30*/
 #include<stdio.h>
