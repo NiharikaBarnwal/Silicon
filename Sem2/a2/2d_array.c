@@ -1,4 +1,4 @@
-/*Write a program by using functions to read a 2D array and display it in matrix format.
+/*Read a 2D array and display it in matrix format.
 Name: Niharika Barnwal
 Roll no.: 30*/
 #include<stdio.h>
