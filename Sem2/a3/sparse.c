@@ -1,4 +1,4 @@
-/*Write a program to create the triplet form a sparse matrix as per the provide specification.
+/*Create the triplet form of a sparse matrix.
 Name: Niharika Barnwal
 Roll no.:30*/
 #include<stdio.h>
