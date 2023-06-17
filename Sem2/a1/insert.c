@@ -1,4 +1,4 @@
-/*Write a user defined function to insert anelement from the array that is passed to it as function argument.
+/*Insert an element in the array.
 Name: Niharika Barnwal
 Roll no.:30*/
 #include<stdio.h>
