@@ -1,4 +1,4 @@
-/*Write a program by using functions to input two matrices and do the matrix addition after checking suitable condition nad then display
+/*Input two matrices and do the matrix addition
 Name: Niharika Barnwal
 Roll no,: 30*/
 #include<stdio.h>
