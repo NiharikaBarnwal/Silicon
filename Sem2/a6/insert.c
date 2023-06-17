@@ -44,6 +44,7 @@ int main()
 				insert_after(node);
 				break;
 			case 6:
+				printf("Thank you!");
 				break;
 			default:
 				printf("Invalid option\n");
