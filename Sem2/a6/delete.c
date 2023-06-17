@@ -46,6 +46,7 @@ int main()
 				delete_after(node);
 				break;
 			case 6:
+				printf("Thank You!");
 				break;
 			default:
 				printf("Invalid option\n");
