@@ -1,4 +1,4 @@
-/*Write a program by using function to input two matrices and do the matrix multiplication sfter checking suitable condition.
+/*Input two matrices and do the matrix multiplication.
 Name: Niharika Barnwal
 Roll no.: 30*/
 #include<stdio.h>
