@@ -1,4 +1,4 @@
-/*Write a user defined function to search for an element in the array by using binary search algorithm. Call it in main() to display the position of the element if it is found, otherwise dispaly suitable error message if it is not found.
+/*Search an element in the array by using binary search algorithm.
 Name: Niharika BarnwalRoll no.: 30*/
 #include<stdio.h>
 void input(int [],int);
