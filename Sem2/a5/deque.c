@@ -36,6 +36,7 @@ int main()
                                 display();
                                 break;
                         case 5:
+				printf("Thank you!");
                                 break;
 			default:
 				printf("Invalid option.\n");
