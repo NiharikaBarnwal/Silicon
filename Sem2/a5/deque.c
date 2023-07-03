@@ -6,6 +6,7 @@
 int left=-1, right=-1;
 int deque[max];
 void insertLeft(int);
+void insertRight(int);
 int deleteLeft();
 int deleteRight();
 bool isFull();
@@ -26,16 +27,22 @@ int main()
                                 scanf("%d",&x);
                                 insertLeft(x);
                                 break;
-                        case 2:
+			 case 2:
+              			printf("Enter the value to be pushed:");
+		                scanf("%d",&x);
+                		insertRight(x);
+		                break;
+                        case 3:
+				
                                 deleteLeft();
                                 break;
-			case 3:
+			case 4:
 				deleteRight();
 				break;
-                        case 4:
+                        case 5:
                                 display();
                                 break;
-                        case 5:
+                        case 6:
 				printf("Thank you!");
                                 break;
 			default:
@@ -43,7 +50,7 @@ int main()
 				break;
 		}
 
-	}while(opt!=5);
+	}while(opt!=6);
 }
 bool isFull()
 {
@@ -76,6 +83,24 @@ void insertLeft(int item)
 			left--;
 		deque[left]=item;
 	}
+}
+void insertRight(int item)
+{
+    if (isFull())
+        printf("Deque is full.\n");
+    else
+    {
+        if(right==-1)
+        {
+            left=0;
+            right=0;
+        }
+        else if(right==max-1)
+            right=0;
+        else
+            right++;
+        deque[right]=item;
+    }
 }
 int deleteLeft()
 {
