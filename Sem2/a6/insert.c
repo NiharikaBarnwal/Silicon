@@ -122,9 +122,7 @@ void insert_pos(NODE *node)
 	{
 		count++;
 		if(count==pos-1)
-		{
 			break;
-		}
 		node=node->next;
 	}
 	if(node->next==NULL)
